@@ -7,10 +7,10 @@ public class EmpWageComputation {
 		int empHrs = 0;
 		int empWage = 0;
 		double empCheck = Math.floor(Math.random() * 10) %3;
-		if ( empCheck == IS_FULL_TIME )
+		if(empCheck == IS_FULL_TIME)
 			System.out.println("Employee is Present");
 			empHrs = 8;
-		else if ( empCheck == IS_PART_TIME)
+		else if (empCheck == IS_PART_TIME)
 			System.out.println("Employee is Present");
 			empHrs = 4;
 		else
