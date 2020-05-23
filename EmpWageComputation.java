@@ -6,6 +6,10 @@ public class EmpWageComputation {
 	public static final int MAX_WORKING_HRS = 100;
 
 	public static void main(String[] args) {
+      newMethod();
+   }
+
+	static void newMethod() {
 		int empHrs = 0, empWage = 0, totalEmpWage = 0, totalWorkingDays = 0, totalEmpHrs = 0;
 		while (totalEmpHrs <= MAX_WORKING_HRS && totalWorkingDays < NUM_OF_WORKING_DAYS) {
 			totalWorkingDays++;
